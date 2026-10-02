@@ -1,21 +1,31 @@
-MIT License
 
-Copyright (c) 2026 Sashko3699
+4. **Важно!** Замени `ТВОЙ_НИК` на свой ник на GitHub.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### Шаг 3. Сохраняем
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Прокрути вниз.
+2. В поле **Commit changes** напиши короткое сообщение, например: `добавил описание проекта`.
+3. Нажми зелёную кнопку **«Commit changes»**.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+**«Commit»** — это как «сохранить» в игре. Только с историей: ты всегда можешь посмотреть, что было раньше.
+
+---
+
+## ЧАСТЬ 4. Создаём .env.example
+
+`.env` — это файл с секретами: пароли, ключи. В интернет его выкладывать **нельзя** (поэтому он есть в `.gitignore`). А вот `.env.example` — это **пустой образец**, чтобы другие знали, что заполнять.
+
+### Шаг 1. Открываем создание файла
+
+1. Вернись в корень репозитория (нажми на название репозитория сверху).
+2. Найди кнопку **«Add file»** (она рядом с зелёной кнопкой «Code»).
+3. В выпадающем меню выбери **«Create new file»**.
+
+### Шаг 2. Пишем имя
+
+1. В большом поле сверху, где мигает курсор, введи: `.env.example`
+2. Точка в начале — это важно! Не забудь её.
+
+### Шаг 3. Вставляем текст
+
+Ниже — большое поле для содержимого. Вставь туда:
